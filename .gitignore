@@ -1,3 +1,8 @@
 originalDataset/
 preprocessedDataset/
 trainedModel/
+sorted_feas_importance/
+trained_models/
+pred_scores/
+runs/
+.ipynb_checkpoints/
