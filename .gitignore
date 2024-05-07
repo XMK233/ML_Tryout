@@ -6,3 +6,5 @@ trained_models/
 pred_scores/
 runs/
 .ipynb_checkpoints/
+data/
+data/

@@ -3,5 +3,8 @@
   <component name="Black">
     <option name="sdkName" value="Python 3.9" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="$USER_HOME$/anaconda3" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="/opt/anaconda3/envs/ml12 (2)" project-jdk-type="Python SDK" />
+  <component name="PyPackaging">
+    <option name="earlyReleasesAsUpgrades" value="true" />
+  </component>
 </project>
