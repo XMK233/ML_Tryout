@@ -4,7 +4,7 @@ import pandas as pd
 from matplotlib.font_manager import FontProperties
 import matplotlib.pyplot as plt
 
-import sys
+import sys, datetime
 
 sys.path.append("../../../../")
 
@@ -90,12 +90,6 @@ def kill_current_kernel():
     '''杀死当前的kernel释放内存空间。'''
     IPython.Application.instance().kernel.do_shutdown(True)
 
-
-def simply_show_data(df1):
-    print(df1.shape)
-    display(df1.head())
-
-
 def wait_flag(saved_flag_path, time_interval_sec=10):
     print("waiting for", saved_flag_path)
     time_count = 0
@@ -106,7 +100,6 @@ def wait_flag(saved_flag_path, time_interval_sec=10):
         time_count += time_interval_sec
         print(time_count, end=" ")
     print("finish!!")
-
 
 class TimerContext:
     def __enter__(self):

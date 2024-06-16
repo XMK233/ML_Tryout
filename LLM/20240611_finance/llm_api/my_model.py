@@ -5,6 +5,8 @@ import requests
 import logging
 
 
+# class LocalGLM
+
 class MyModelAPI:
     def __init__(self, logger):
         self.logger = logger
