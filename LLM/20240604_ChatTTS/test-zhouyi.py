@@ -290,7 +290,7 @@ chunk_size = 50
 # res = epub2txt(url)
 
 # from a local epub file
-filepath = r'/Users/minkexiu/Desktop/翦商：殷周之变与华夏新生 (李硕) (Z-Library).epub'
+filepath = r'/Users/minkexiu/Desktop/周易参同契——中华经典名著全本全注全译丛书 (章伟文) (Z-Library).epub'
 res = epub2txt(filepath)
 
 # output as a list of chapters
@@ -461,7 +461,7 @@ for bound in bounds[int(args.since):int(args.till)]:
         to_see, 
     )
     scipy.io.wavfile.write(
-        filename=create_preprocessedData_path(f"part_{bound}.wav"), 
+        filename=create_preprocessedData_path(f"zhouyicantongqi-part_{bound}.wav"), 
         rate=24_000, 
         data=np.concatenate(
             [
