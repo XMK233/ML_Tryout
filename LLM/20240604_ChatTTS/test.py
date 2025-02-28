@@ -5,7 +5,8 @@ from matplotlib.font_manager import FontProperties
 import matplotlib.pyplot as plt
 from datetime import datetime
 
-sys.path.append("../../")
+# sys.path.append("../../")
+
 # from train_predict_tools_lgbm import *
 # from train_predict_tools import * 
 # from perf_eval_tools import * 
@@ -19,7 +20,7 @@ tqdm.tqdm.pandas() ## 引入这个，就可以在apply的时候用progress_apply
 
 sys.path.append("../../../")
 new_base_path = os.path.join(
-    "/Users/minkexiu/Downloads/GitHub/",
+    "/mnt/d/forCoding_data",
     "/".join(
         os.getcwd().split("/")[-1*(len(sys.path[-1].split("/")) - 1):]
     ),
@@ -278,6 +279,7 @@ from epub2txt import epub2txt
 
 chat = ChatTTS.Chat()
 chat.load(
+    device="cuda",
     compile=True, 
     source="custom", 
     custom_path=create_trained_models_path("chatTTS")
@@ -290,7 +292,7 @@ chunk_size = 50
 # res = epub2txt(url)
 
 # from a local epub file
-filepath = r'/Users/minkexiu/Desktop/翦商：殷周之变与华夏新生 (李硕) (Z-Library).epub'
+filepath = r'/mnt/c/Users/Administrator/Desktop/翦商：殷周之变与华夏新生 (李硕) (Z-Library).epub'
 res = epub2txt(filepath)
 
 # output as a list of chapters

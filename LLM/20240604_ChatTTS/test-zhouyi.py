@@ -278,6 +278,7 @@ from epub2txt import epub2txt
 
 chat = ChatTTS.Chat()
 chat.load(
+    device="cuda",
     compile=True, 
     source="custom", 
     custom_path=create_trained_models_path("chatTTS")
