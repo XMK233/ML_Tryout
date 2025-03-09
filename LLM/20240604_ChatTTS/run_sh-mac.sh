@@ -1,23 +1,24 @@
 # python test-mac.py -since 0 -till 10
 # sleep 3
-python test-mac.py -since 10 -till 20
-sleep 3
-python test-mac.py -since 20 -till 30
-sleep 3
-python test-mac.py -since 30 -till 40
-sleep 3
-python test-mac.py -since 40 -till 50
-sleep 3
-python test-mac.py -since 50 -till 60
-sleep 3
-python test-mac.py -since 60 -till 70
-sleep 3
-python test-mac.py -since 70 -till 80
-sleep 3
-python test-mac.py -since 80 -till 90
-sleep 3
-python test-mac.py -since 90 -till 100
-sleep 3
+# python test-mac.py -since 10 -till 20
+# sleep 3
+# python test-mac.py -since 20 -till 30
+# sleep 3
+# python test-mac.py -since 30 -till 40
+# sleep 3
+# python test-mac.py -since 40 -till 50
+# sleep 3
+# python test-mac.py -since 50 -till 60
+# sleep 3
+# python test-mac.py -since 60 -till 70
+# sleep 3
+# python test-mac.py -since 70 -till 80
+# sleep 3
+# python test-mac.py -since 80 -till 90
+# sleep 3
+# python test-mac.py -since 90 -till 100
+# sleep 3
+
 # python test-mac.py -since 100 -till 110
 # sleep 3
 # python test-mac.py -since 110 -till 120
@@ -58,6 +59,7 @@ sleep 3
 # sleep 3
 # python test-mac.py -since 290 -till 300
 # sleep 3
+
 # python test-mac.py -since 300 -till 310
 # sleep 3
 # python test-mac.py -since 310 -till 320
@@ -78,6 +80,7 @@ sleep 3
 # sleep 3
 # python test-mac.py -since 390 -till 400
 # sleep 3
+
 # python test-mac.py -since 400 -till 410
 # sleep 3
 # python test-mac.py -since 410 -till 420
@@ -88,6 +91,7 @@ sleep 3
 # sleep 3
 # python test-mac.py -since 440 -till 450
 # sleep 3
+
 # python test-mac.py -since 450 -till 460
 # sleep 3
 # python test-mac.py -since 460 -till 470
@@ -98,6 +102,7 @@ sleep 3
 # sleep 3
 # python test-mac.py -since 490 -till 500
 # sleep 3
+
 # python test-mac.py -since 500 -till 510
 # sleep 3
 # python test-mac.py -since 510 -till 520
@@ -108,6 +113,7 @@ sleep 3
 # sleep 3
 # python test-mac.py -since 540 -till 550
 # sleep 3
+
 # python test-mac.py -since 550 -till 560
 # sleep 3
 # python test-mac.py -since 560 -till 570
