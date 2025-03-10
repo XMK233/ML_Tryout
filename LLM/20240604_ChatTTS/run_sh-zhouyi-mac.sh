@@ -1,5 +1,5 @@
-python test-zhouyi-mac.py -since 0 -till 10
-sleep 3
+# python test-zhouyi-mac.py -since 0 -till 10
+# sleep 3
 # python test-zhouyi-mac.py -since 10 -till 20
 # sleep 3
 # python test-zhouyi-mac.py -since 20 -till 30
@@ -38,12 +38,14 @@ sleep 3
 # sleep 3
 # python test-zhouyi-mac.py -since 190 -till 200
 # sleep 3
-# python test-zhouyi-mac.py -since 200 -till 210
-# sleep 3
-# python test-zhouyi-mac.py -since 210 -till 220
-# sleep 3
-# python test-zhouyi-mac.py -since 220 -till 230
-# sleep 3
+
+python test-zhouyi-mac.py -since 200 -till 210
+sleep 3
+python test-zhouyi-mac.py -since 210 -till 220
+sleep 3
+python test-zhouyi-mac.py -since 220 -till 230
+sleep 3
+
 # python test-zhouyi-mac.py -since 230 -till 240
 # sleep 3
 # python test-zhouyi-mac.py -since 240 -till 250
