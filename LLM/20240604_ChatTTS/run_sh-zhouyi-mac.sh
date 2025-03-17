@@ -39,12 +39,12 @@
 # python test-zhouyi-mac.py -since 190 -till 200
 # sleep 3
 
-python test-zhouyi-mac.py -since 200 -till 210
-sleep 3
-python test-zhouyi-mac.py -since 210 -till 220
-sleep 3
-python test-zhouyi-mac.py -since 220 -till 230
-sleep 3
+# python test-zhouyi-mac.py -since 200 -till 210
+# sleep 3
+# python test-zhouyi-mac.py -since 210 -till 220
+# sleep 3
+# python test-zhouyi-mac.py -since 220 -till 230
+# sleep 3
 
 # python test-zhouyi-mac.py -since 230 -till 240
 # sleep 3
@@ -60,6 +60,8 @@ sleep 3
 # sleep 3
 # python test-zhouyi-mac.py -since 290 -till 300
 # sleep 3
+
+
 # python test-zhouyi-mac.py -since 300 -till 310
 # sleep 3
 # python test-zhouyi-mac.py -since 310 -till 320
@@ -72,6 +74,7 @@ sleep 3
 # sleep 3
 # python test-zhouyi-mac.py -since 350 -till 360
 # sleep 3
+
 # python test-zhouyi-mac.py -since 360 -till 370
 # sleep 3
 # python test-zhouyi-mac.py -since 370 -till 380
@@ -82,6 +85,7 @@ sleep 3
 # sleep 3
 # python test-zhouyi-mac.py -since 400 -till 410
 # sleep 3
+
 # python test-zhouyi-mac.py -since 410 -till 420
 # sleep 3
 # python test-zhouyi-mac.py -since 420 -till 430
@@ -92,6 +96,7 @@ sleep 3
 # sleep 3
 # python test-zhouyi-mac.py -since 450 -till 460
 # sleep 3
+
 # python test-zhouyi-mac.py -since 460 -till 470
 # sleep 3
 # python test-zhouyi-mac.py -since 470 -till 480
