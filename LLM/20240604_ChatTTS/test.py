@@ -456,7 +456,6 @@ for bound in bounds[int(args.since):int(args.till)]:
     ).replace(
         " ", "[uv_break]"
     ) for x in strs[bound[1]:bound[2]]]
-    print(bound, end=" ")
     # print(to_see)
     wavs = generate_audio_file(
         chat, 
@@ -471,3 +470,4 @@ for bound in bounds[int(args.since):int(args.till)]:
             ] 
         ) 
     )
+    print(bound, end="\n\n")
